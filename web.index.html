@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechSavvyES - Servicios de seguridad digital y privacidad online. Únete a nuestra comunidad y protege tu información.">
+    <meta name="keywords" content="seguridad digital, privacidad online, VPN, ciberseguridad, protección de datos">
+    <meta name="author" content="TechSavvyES">
+    <title>TechSavvyES</title>
+    <style>
+        /* Estilos para el diseño tipo deepweb */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000000;
+            color: #00ff00;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #111111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00ff00;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #00ff00;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #00ff00;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #ffcc00;
+            text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #00ff00;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #00ff00;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            background-color: #111111;
+            color: #00ff00;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #ffcc00;
+            color: #000000;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #111111;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 2px solid #00ff00;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #00ff00;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .register-form label,
+        .content label {
+            font-size: 16px;
+            color: #00ff00;
+        }
+
+        .register-form input[type="submit"] {
+            background-color: #ff6f00;
+        }
+
+        .content ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a TechSavvyES</h1>
+        <p>Protege tu privacidad online y explora los mejores servicios de seguridad digital.</p>
+    </header>
+
+    <div class="content">
+        <div class="section" id="foro">
+            <h2>Foro Privado</h2>
+            <div class="content">
+                <p>Únete a nuestra comunidad exclusiva para intercambiar ideas, consejos y recursos relacionados con la seguridad digital, la privacidad y más.</p>
+                <form action="#" method="post">
+                    <label for="nombre">Tu Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="mensaje">Tu Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <input type="submit" value="Enviar Mensaje">
+                </form>
+            </div>
+        </div>
+
+        <div class="section" id="servicios">
+            <h2>Servicios Exclusivos</h2>
+            <div class="content">
+                <p>Explora una variedad de servicios avanzados diseñados para asegurar la privacidad y proteger tu información en línea.</p>
+                <ul>
+                    <li><strong>VPN Premium (10€ / mes):</strong> Acceso ilimitado a servidores rápidos y seguros en todo el mundo.</li>
+                    <li><strong>Consultoría de Ciberseguridad (20€ / sesión):</strong> Evaluación exhaustiva de tus sistemas y redes.</li>
+                    <li><strong>Protección de Datos Personales (15€ / mes):</strong> Seguridad avanzada para tus datos sensibles.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="contacto">
+            <h2>Contacto</h2>
+            <div class="content">
+                <p>Si tienes alguna pregunta o deseas obtener más información sobre nuestros servicios, no dudes en contactarnos.</p>
+                <form action="#" method="post">
+                    <label for="email">Tu Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje-contacto">Tu Mensaje:</label>
+                    <textarea id="mensaje-contacto" name="mensaje-contacto" rows="4" required></textarea>
+
+                    <input type="submit" value="Enviar Mensaje">
+                </form>
+            </div>
+        </div>
+
+        <div class="section" id="registro">
+            <h2>Registrarse</h2>
+            <div class="content">
+                <p>Regístrate para obtener acceso completo a todos los servicios exclusivos, recibir actualizaciones y participar en foros privados.</p>
+                <form class="register-form" action="#" method="post">
+                    <label for="usuario">Nombre de Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+
+                    <label for="email-registro">Correo Electrónico:</label>
+                    <input type="email" id="email-registro" name="email-registro" required>
+
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required>
+
+                    <input type="submit" value="Registrar Cuenta">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TechSavvyES. Todos los derechos reservados.</p>
+        <p><a href="https://www.youtube.com/@techsavvyes" target="_blank">Visita nuestro canal de YouTube</a></p>
+    </footer>
+</body>
+</html>
